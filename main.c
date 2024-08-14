@@ -2,5 +2,11 @@
 #include <genesis.h>
 
 int main(){
+    // test changes
+    VDP_drawText("Hello", 20, 20);
+    while(1){
+
+        VDP_waitVSync();
+    }
     return 0;
 }
