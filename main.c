@@ -3,7 +3,7 @@
 
 int main(){
     // test changes
-    VDP_drawText("Hello", 20, 20);
+    VDP_drawText("From the HUB", 20, 20);
     while(1){
 
         VDP_waitVSync();
