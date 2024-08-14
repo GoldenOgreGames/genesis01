@@ -3,7 +3,8 @@
 
 int main(){
     // test changes
-    VDP_drawText("Hello", 20, 20);
+    // simple change test
+    VDP_drawText("From the Local", 20, 20);
     while(1){
 
         VDP_waitVSync();
