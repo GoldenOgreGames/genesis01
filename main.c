@@ -14,7 +14,7 @@ int main(){
     PAL_setPalette(PAL2, player1_sp.palette->data, DMA);
     player = SPR_addSprite(&player1_sp, player_x, player_y, TILE_ATTR(PAL2, FALSE, FALSE, FALSE));
     // will remove
-  VDP_drawText("From the Local", 20, 20);
+  VDP_drawText("Player X: ", 0, 0);
     
 
     while(1){
