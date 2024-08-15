@@ -27,4 +27,4 @@ out/main.o: main.c C:/SEGA_DEV/SGDK/inc/genesis.h \
  C:/SEGA_DEV/SGDK/inc/ext/flash-save/saveman.h \
  C:/SEGA_DEV/SGDK/inc/ext/console.h C:/SEGA_DEV/SGDK/inc/config.h \
  C:/SEGA_DEV/SGDK/inc/string.h C:/SEGA_DEV/SGDK/inc/maths.h \
- C:/SEGA_DEV/SGDK/inc/dma.h
+ C:/SEGA_DEV/SGDK/inc/dma.h res/resources.h
