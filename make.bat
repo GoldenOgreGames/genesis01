@@ -1,1 +1,0 @@
-"D:\SEGA_DEV\SGDK\bin\make" -f "D:\SEGA_DEV\SGDK\makefile.gen"
