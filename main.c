@@ -7,7 +7,7 @@
     Sprite* player;
     int player_x = 10; // xy coordinates
     int player_y = 10;
-    int player_vel = 2; // velocity
+    int player_vel = 10; // velocity
 
     // MAP 
     u16 ind = TILE_USER_INDEX;
