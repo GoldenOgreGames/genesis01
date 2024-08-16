@@ -4,8 +4,8 @@
             "name": "windows-gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:\\SEGA_DEV\\SGDK\\inc",
-                "D:\\SEGA_DEV\\SGDK\\res"
+                "C:\\SEGA_DEV\\SGDK\\inc",
+                "C:\\SEGA_DEV\\SGDK\\res"
             ],
             "compilerPath": "C:/MinGW/bin/gcc.exe",
             "cStandard": "${default}",

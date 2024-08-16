@@ -8,13 +8,10 @@
     int player_y = 10;
     int player_vel = 2; // velocity
 
-<<<<<<< HEAD
     // MAP 
     u16 ind = TILE_USER_INDEX;
     Map* level_1_map;
 
-=======
->>>>>>> 0cdf4d77d3c038fa56c87f86771095fc94d757dd
 static void handleInput();
 int main(){
     // Add MAP
@@ -28,18 +25,11 @@ int main(){
     PAL_setPalette(PAL2, player1_sp.palette->data, DMA);
     player = SPR_addSprite(&player1_sp, player_x, player_y, TILE_ATTR(PAL2, FALSE, FALSE, FALSE));
     // will remove
-<<<<<<< HEAD
   VDP_drawText("SONIC: ", 0, 0);
     
 
     while(1){
         //SPR_setPosition(player,player_x, player_y);
-=======
-    VDP_drawText("Player X: ", 0, 0);
-    
-
-    while(1){
->>>>>>> 0cdf4d77d3c038fa56c87f86771095fc94d757dd
         handleInput();
         SPR_update();
         SYS_doVBlankProcess();
@@ -47,7 +37,6 @@ int main(){
     return 0;
 }
 
-<<<<<<< HEAD
 // handle movement
 static void handleInput(){
     u16 value = JOY_readJoypad(JOY_1);
@@ -70,20 +59,4 @@ static void handleInput(){
 
     // Move sprite
     SPR_setPosition(player, player_x, player_y);
-=======
-static void handleInput(){
-    
-	u16 value = JOY_readJoypad(JOY_1);
-	if(value & BUTTON_RIGHT){
-		player_x += player_vel;
-	} else if(value & BUTTON_LEFT){
-		player_x -= player_vel;
-	}
-	if(value & BUTTON_UP){
-		player_y -= player_vel;
-	} else if(value & BUTTON_DOWN){
-		player_y += player_vel;
-	}
-    SPR_setPosition(player,player_x, player_y);
->>>>>>> 0cdf4d77d3c038fa56c87f86771095fc94d757dd
 }
