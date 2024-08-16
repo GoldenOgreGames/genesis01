@@ -1,4 +1,5 @@
 // make sure to change include path to find local copy of SGDK/inc & res
+// Getting more set up!
 #include <genesis.h>
 #include <resources.h>
 
