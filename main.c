@@ -12,7 +12,9 @@
     // MAP 
     u16 ind = TILE_USER_INDEX;
     Map* level_1_map;
-
+    /* 
+        To-do: Camera method 
+    */
 static void handleInput();
 int main(){
     // Add MAP
