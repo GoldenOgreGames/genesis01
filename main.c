@@ -31,9 +31,6 @@ int main(){
     player = SPR_addSprite(&player1_sp, player_x, player_y, TILE_ATTR(PAL2, FALSE, FALSE, FALSE));
     // will remove
   VDP_drawText("SONIC: ", 0, 0);
-    
-
-    while(1){
 
     while(1){
         //SPR_setPosition(player,player_x, player_y);
